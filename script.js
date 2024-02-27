@@ -27,7 +27,7 @@ function init() {
 };
 
 async function getCode(questCode) {
-  const Url = `generate`;//클라우드 타입 서버 주소 입력
+  const Url = `https://port-0-fork-back-am952nlt3rdsez.sel5.cloudtype.app/generate`;//클라우드 타입 서버 주소 입력
   const Data = JSON.stringify({ userInput: questCode });   
   let response; 
     try {
